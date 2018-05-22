@@ -10,6 +10,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+var path = require('path') // 开头引入 path 模块
+// HtmlWebpackPlugin 中添加 favicon
+
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -68,6 +71,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         : config.build.index,
       template: 'index.html',
       inject: true,
+      favicon: path.resolve('xiaoxuan.ico'), // 引入图片地址
       minify: {
         removeComments: true,
         collapseWhitespace: true,
