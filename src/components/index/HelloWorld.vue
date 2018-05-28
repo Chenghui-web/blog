@@ -22,7 +22,7 @@
       </div>
       <div class="welcome">
         <div class="border-before"></div>
-        <span class='span-title'>Welcome to my home    ↓</span>
+        <span class='span-title'>Welcome to my home ↓</span>
         <div class="border-after"></div>
       </div>
     </div>
@@ -40,22 +40,26 @@
           <div class="introduct-main">
             <div class="contact">
               <div class="contact-list">
-                 <span class='contact-title'>职业：</span><span class='descript'>前端工程师</span>
+                <span class='contact-title'>职业：</span>
+                <span class='descript'>前端工程师</span>
               </div>
               <div class="contact-list">
-                <span class='contact-title'>职龄：</span><span class='descript'>2年</span>
+                <span class='contact-title'>职龄：</span>
+                <span class='descript'>2年</span>
               </div>
               <div class="contact-list">
-                 <span class='contact-title'>微信：</span><span class='descript'>ch6080E</span>
+                <span class='contact-title'>微信：</span>
+                <span class='descript'>ch6080E</span>
               </div>
               <div class="contact-list">
-                 <span class='contact-title'>邮箱：</span><span class='descript'>462560628@qq.com</span>
+                <span class='contact-title'>邮箱：</span>
+                <span class='descript'>462560628@qq.com</span>
               </div>
             </div>
 
           </div>
           <div class="bei">
-              <a href="http://www.miitbeian.gov.cn">苏ICP备18004998号</a>
+            <a href="http://www.miitbeian.gov.cn">苏ICP备18004998号</a>
           </div>
         </div>
       </div>
@@ -77,16 +81,20 @@
       <div class="main-right-contain">
 
         <div class="right-main">
-          管理后台   
+          管理后台
         </div>
       </div>
     </div>
-
+    <div id="editor">
+      <mavonEditor style="height: 100%"></mavonEditor>
+    </div>
   </div>
 </template>
 
 <style lang="less" scoped src="./hello.less"></style>
 <script src='./hello.js'></script>
-<script src='./can_co.js'></script>
+
+
+
 
 
