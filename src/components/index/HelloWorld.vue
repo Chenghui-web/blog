@@ -81,11 +81,26 @@
       <div class="main-right-contain">
 
         <div class="right-main">
-          管理后台
+          <div class="manage-login">
+            <div class="login-title">
+              管理后台
+            </div>
+            <div class="login-contain">
+              <div class="login-list">
+                <span class='list-title'>用户名</span><input type="text" class='name-input input-common'>
+              </div>
+              <div class="login-list">
+                <span class='list-title'>登录密码</span><input type="password" class='name-input input-common'>
+              </div>
+            </div>
+            <div class="login-submit">
+              登  录
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="editor">
+    <div id="editor" style='display:none'>
       <mavonEditor style="height: 100%"></mavonEditor>
     </div>
   </div>

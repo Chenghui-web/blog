@@ -214,7 +214,56 @@ div{
       border-radius: 5px;
       width: 200px;
       border:2px solid #c2bfa0;
-      
+      .right-main{
+        
+        .manage-login{
+          display: flex;
+          flex-direction:column;
+          .login-title{
+            margin:15px 0;
+            font-size: 20px;
+          }
+          .login-contain{
+            padding:10px;
+            .login-list{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              font-size: 14px;
+              margin-bottom: 10px;
+              .list-title{
+                // flex: 1;
+                display: block;
+                flex: auto;
+                text-align: left;
+                display: flex;
+                align-items: center;
+              }
+              .input-common{
+                // flex: 2;
+                height: 25px;
+                width: 55%;
+                opacity: 0.7;
+                padding:0 5px;
+                border-radius: 2px;
+              }
+            }
+          }
+          .login-submit{
+            width: 50%;
+            padding:10px 0;
+            border-radius: 5px;
+            background: #e8dcb6;
+            color:#ab7272;
+            margin:0 auto;
+            &:hover{
+              background: #eadaaa;
+              cursor: pointer;
+            }
+          }
+        }
+
+      }
     }
   }
 }
