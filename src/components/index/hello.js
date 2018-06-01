@@ -15,16 +15,6 @@ export default {
     mavonEditor
   },
   mounted(){
-    // console.log(mavonEditor);
-    // $.ajax({
-    //   type:'get',
-    //   url:'http://localhost:8080/#/123',
-    //   success:function(data){
-    //   console.log(data);
-    //   },
-    //   error:function(){
-    //   console.log('error');
-    //   }
-    //   })
+
   }
 };
