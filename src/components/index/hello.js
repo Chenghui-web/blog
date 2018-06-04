@@ -15,6 +15,14 @@ export default {
     mavonEditor
   },
   mounted(){
-
+    $.ajax({
+      url:'http://localhost:3003/ajax/search',
+      data:{},
+      type:'get',
+      dataType:'json',
+      success:function(response){
+        console.log(response)
+      }
+    })
   }
 };

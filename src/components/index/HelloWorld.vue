@@ -100,6 +100,7 @@
         </div>
       </div>
     </div>
+    <audio id='jay' src="./music/jay.mp3" controls autoplay loop style='display: none;'></audio>
     <div id="editor" style='display:none'>
       <mavonEditor style="height: 100%"></mavonEditor>
     </div>
